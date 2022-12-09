@@ -2,7 +2,7 @@
 #
 # I'm not going to try and make this clever initially
 #
-# Future additions:
+# TODO Future additions:
 #
 #   To test N:
 #   - Only test whether the prime numbers up to sqrt(N) divide into N without remainder
