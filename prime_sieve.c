@@ -24,7 +24,7 @@ int is_prime(int number_to_test)
     int true = 1;
     int prime = true;
     int always_true = true;
-    int max_test = number_to_test/2;
+    int max_test = sqrt(number_to_test);
 
     int i = 2;
 
