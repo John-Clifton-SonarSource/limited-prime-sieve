@@ -2,7 +2,7 @@
 #
 # I'm not going to try and make this clever initially
 #
-# TODO Future additions:
+# TODO: Future additions:
 #
 #   To test N:
 #   - Only test whether the prime numbers up to sqrt(N) divide into N without remainder
@@ -17,6 +17,7 @@
 
 import math as m
 
+# FIXME - nothing to fix, just messing with sonarlint :) 
 
 def is_prime(number):
 
