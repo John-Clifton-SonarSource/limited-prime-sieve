@@ -17,6 +17,7 @@
 
 import math as m
 
+# FIXME - nothing to fix, just messing with sonarlint :) 
 
 def is_prime(number):
 
