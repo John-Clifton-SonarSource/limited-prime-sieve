@@ -19,6 +19,8 @@ import math as m
 
 # FIXME - nothing to fix, just messing with sonarlint :) 
 
+# TODO - learn python
+
 def is_prime(number):
 
     prime = True
