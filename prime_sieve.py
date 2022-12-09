@@ -31,8 +31,7 @@ def is_prime(number):
     while ((i <= max_test) & (prime == True) & always_true): # interestingly, SonarLint doesn't catch use of & True here
         if number % i == 0:
             prime = False
-            break
-        i += 1
+            i += 1
 
     return prime
 
