@@ -49,9 +49,9 @@ int main()
 
     for(int i = 2; i<N; i++)
     {
-        if(is_prime(N))
+        if(is_prime(i))
         {
-            printf("%d is prime", N);
+            printf("%d is prime\n", i);
         }
     }
 
