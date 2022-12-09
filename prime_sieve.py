@@ -34,7 +34,8 @@ def is_prime(number):
     while ((i <= max_test) & (prime == True) & always_true): # interestingly, SonarLint doesn't catch use of & True here
         if number % i == 0:
             prime = False
-            i += 1
+
+        i += 1
 
     return prime
 
@@ -42,4 +43,20 @@ def is_prime(number):
 for N in range(2,50):
     if is_prime(N):
         print(f"{N} is prime")
+
+
+# Now let's let the user tell us
+
+test_another = True
+
+while test_another == True:
+
+    user_value_string = input("Which value would you like to test?")
+    user_value = int(user_value_string)
+    print(f"{user_value} is prime: {is_prime(user_value)}")
+
+    answer = input("Would you like to test another number? (Y/N)")
+
+    if answer == 'N' or answer == 'n':
+        test_another = False
 
