@@ -30,7 +30,7 @@ def is_prime(number):
     i = 2
     max_test = m.sqrt(number)
 
-    if always_true == True:
+    if always_true == False:
         print("This should never show - its just here to test SonarLint behaviour. Interstingly it doesn't catch that this could never run")
 
     while ((i <= max_test) & (prime == True) & always_true): # interestingly, SonarLint doesn't catch use of & True here
@@ -81,6 +81,6 @@ if a < b:
                     if a < b:
                         print("Well, I made it")
         else:
-            print ("What now?")
+            print("")
     else:
         print("Or now?")
