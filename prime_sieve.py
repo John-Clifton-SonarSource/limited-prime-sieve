@@ -14,6 +14,8 @@
 #   Other extensions:
 #   - Ask user for N to test
 #   - Go and look up how people do this for real
+#   - Return first factor found
+#   - Return prime factorisation
 
 import math as m
 
