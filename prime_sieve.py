@@ -28,7 +28,7 @@ def is_prime(number):
     i = 2
     max_test = m.sqrt(number)
 
-    if always_true == False:
+    if always_true == True:
         print("This should never show - its just here to test SonarLint behaviour. Interstingly it doesn't catch that this could never run")
 
     while ((i <= max_test) & (prime == True) & always_true): # interestingly, SonarLint doesn't catch use of & True here
@@ -51,12 +51,30 @@ test_another = True
 
 while test_another == True:
 
-    user_value_string = input("Which value would you like to test?")
-    user_value = int(user_value_string)
-    print(f"{user_value} is prime: {is_prime(user_value)}")
+    user_value_string = input("Which value would you like to test?") 
 
-    answer = input("Would you like to test another number? (Y/N)")
+    if user_value_string != '':
+        user_value = int(user_value_string)
+        print(f"{user_value} is prime: {is_prime(user_value)}")
+       
+        answer = input("Would you like to test another number? (Y/N)")
 
-    if answer == 'N' or answer == 'n':
-        test_another = False
+        if answer == 'N' or answer == 'n' or answer == '':
+            test_another = False
+    else:
+        test_another = False 
 
+
+# Testing nesting checking
+
+a = 1
+b = 2
+c = 3
+
+if a < b:
+    if a < b < c:
+        if a < b > c:
+            if a < b:
+                if a < b:
+                    if a < b:
+                        print("Well, I made it")
