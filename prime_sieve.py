@@ -50,7 +50,7 @@ for N in range(2,50):
 
 # Now let's let the user tell us
 
-test_another = True
+test_another = False
 
 while test_another == True:
 
