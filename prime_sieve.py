@@ -41,14 +41,14 @@ def is_prime(number):
 
     return prime
 
-def complex_code(a,b,c):
+def complex_code(a,b,c,d,e,f,g):
 
     if a < b:
-        if a < b:
-            if b < c:
-                if a < c:
-                    if a < b:
-                        if a < b:
+        if a < c:
+            if a < d:
+                if a < e:
+                    if a < f:
+                        if a < g:
                             print("Well, I made it")
             else:
                 print("")
@@ -57,19 +57,20 @@ def complex_code(a,b,c):
 
 
 # Some duplication
-def complex_code2(a,b,c):
+def complex_code2(a,b,c,d,e,f,g):
 
     if a < b:
-        if a < b:
-            if b < c:
-                if a < c:
-                    if a < b:
-                        if a < b:
+        if a < c:
+            if a < d:
+                if a < e:
+                    if a < f:
+                        if a < g:
                             print("Well, I made it")
             else:
                 print("")
         else:
             print("Or now?")
+
 
     
 # N to test
