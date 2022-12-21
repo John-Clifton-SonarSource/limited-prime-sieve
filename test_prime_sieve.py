@@ -7,6 +7,7 @@ def test_is_prime():
 
 def test_complex_code():
     p.complex_code(1,2,3)
+    p.complex_code(2,1,3)
     p.complex_code2(2,5,3)
+    p.complex_code2(5,2,3)
 
-    

@@ -44,9 +44,9 @@ def is_prime(number):
 def complex_code(a,b,c):
 
     if a < b:
-        if a < b < c:
-            if a < b > c:
-                if a < b:
+        if a < b:
+            if b < c:
+                if a < c:
                     if a < b:
                         if a < b:
                             print("Well, I made it")
@@ -60,9 +60,9 @@ def complex_code(a,b,c):
 def complex_code2(a,b,c):
 
     if a < b:
-        if a < b < c:
-            if a < b > c:
-                if a < b:
+        if a < b:
+            if b < c:
+                if a < c:
                     if a < b:
                         if a < b:
                             print("Well, I made it")
