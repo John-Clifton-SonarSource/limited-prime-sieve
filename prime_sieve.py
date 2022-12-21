@@ -41,6 +41,36 @@ def is_prime(number):
 
     return prime
 
+def complex_code(a,b,c):
+
+    if a < b:
+        if a < b < c:
+            if a < b > c:
+                if a < b:
+                    if a < b:
+                        if a < b:
+                            print("Well, I made it")
+            else:
+                print("")
+        else:
+            print("Or now?")
+
+
+# Some duplication
+def complex_code2(a,b,c):
+
+    if a < b:
+        if a < b < c:
+            if a < b > c:
+                if a < b:
+                    if a < b:
+                        if a < b:
+                            print("Well, I made it")
+            else:
+                print("")
+        else:
+            print("Or now?")
+
     
 # N to test
 for N in range(2,50):
@@ -67,23 +97,5 @@ while test_another == True:
     else:
         test_another = False 
 
-
-# Testing nesting checking
-
-a = 1
-b = 2
-c = 3
-
-if a < b:
-    if a < b < c:
-        if a < b > c:
-            if a < b:
-                if a < b:
-                    if a < b:
-                        print("Well, I made it")
-        else:
-            print("")
-    else:
-        print("Or now?")
 
 
